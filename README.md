@@ -1,3 +1,12 @@
+https://connect2id.com/products/nimbus-jose-jwt/examples/jwt-with-hmac
+http://nimbusds.com/blog/category/jwt/
+http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
+http://stackoverflow.com/questions/40104464/generating-signed-and-encrypted-jwt
+Frequently Asked Questions
+https://connect2id.com/products/nimbus-jose-jwt/faq
+
+
+
 <p align="center">
   <img src="https://pac4j.github.io/pac4j/img/logo-spring-webmvc.png" width="300" />
 </p>

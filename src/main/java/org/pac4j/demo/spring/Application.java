@@ -142,7 +142,7 @@ public class Application {
     public String restJwt(HttpServletRequest request, HttpServletResponse response, Map<String, Object> map) {
         return protectedIndex(request, response, map);
     }
-
+    
     @RequestMapping("/jwt.html")
     public String jwt(HttpServletRequest request, HttpServletResponse response, Map<String, Object> map) {
         final SecretSignatureConfiguration secretSignatureConfiguration = new SecretSignatureConfiguration(salt);
@@ -160,7 +160,7 @@ public class Application {
         map.put("token", token);
         return "jwt";
     }
-
+    
     @RequestMapping("/loginForm")
     public String loginForm(Map<String, Object> map) {
         final FormClient formClient = (FormClient) config.getClients().findClient("FormClient");

@@ -82,7 +82,8 @@ public class Pac4jConfig {
         ParameterClient parameterClient = new ParameterClient("token", authenticator);
         parameterClient.setSupportGetRequest(true);
         parameterClient.setSupportPostRequest(false);
-
+        
+        //DirectClient
         // basic auth
         final DirectBasicAuthClient directBasicAuthClient = new DirectBasicAuthClient(new SimpleTestUsernamePasswordAuthenticator());
 
