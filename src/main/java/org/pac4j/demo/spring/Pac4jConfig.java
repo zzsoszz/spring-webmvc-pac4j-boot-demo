@@ -81,7 +81,7 @@ public class Pac4jConfig {
         authenticator.setEncryptionConfiguration(secretEncryptionConfiguration);
         ParameterClient parameterClient = new ParameterClient("token", authenticator);
         parameterClient.setSupportGetRequest(true);
-        parameterClient.setSupportPostRequest(false);
+        parameterClient.setSupportPostRequest(true);
         
         //DirectClient
         // basic auth
